@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+ int angles1,angle2,angle3;
+ printf("enter three angles \n");
+ scanf("%d %d %d",&angles1,&angle2,&angle3);
+ if(angles1+angle2+angle3==180)
+ printf("its a triangle");
+ else
+ printf("not a triangle");
+ 
+ 
+ return 0;
+}
